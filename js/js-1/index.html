@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Document</title> 
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="new__todo mt-5">
+      <div class="container d-flex">
+       
+        <form id="inputItem">
+           <h4 class="newTodo" id="todoItem">New Todo Item</h4>
+          <input class="size" type="text" id="todoName" placeholder="Todo Name" />
+          <input class="size"  type="text" id="iconOpt" placeholder="Category with icon" />
+          <input  class="size" type="text" id="priority" placeholder="Priority" />
+          <input  class="size" type="text" id="descrp" placeholder="Description" />
+           <input  class="size" type="date" id="date" placeholder="Date">
+          <input  class="size" type="time" id="status" placeholder="Status select">
+          <button class="blueBtn mb-3"  onclick="updateInfo()">Create</button>
+        </form>
+        <!-- Right side -->
+      <div class="info-todo">
+      <div class="container " id="inner">
+        <button id="addTodo" onclick="">ADD Todo</button>
+        <!-- 11111111111111111111 -->
+        <!-- <div class="box__item d-flex" id="toDo">
+          <div class="box__item-date"> 
+            <h3 class="dateStyle"> <span id="dateBox" class=""></span></h3>
+            <h4 id="timesUp"></h4>
+          </div>
+          <div class="box__item-info">
+            <h3><i class="fab fa-free-code-camp " style="background: #FFCE31;
+              border-radius: 15px;"></i><span id="graden"></span></h3>
+            <h4 id="descrpInfo"></h4>
+          </div>
+          <div class="box__item-button d-flex">
+            <img src="img/emojione_person-running-light-skin-tone.svg" alt="">
+            <button onclick="" class="start" style="color: #0092FC; background: rgba(186, 226, 255, 0.24);
+            ">Started</button>
+          </div>
+           <div class="delete">
+               <span class="check"><a href="#"><img src="img/Vector (2).svg" alt=""></a> </span>
+               <span class="edit"><a href="#"><img src="img/Group (8).svg" alt=""></a></span>
+               <span id='${item.id}' class="clear"><a href="#"><img src="img/bx_bx-trash.svg" ></a></span>
+           </div>
+        </div> -->
+        <!-- 222222222222222222222
+        <div class="box__item d-flex">
+          <div class="box__item-date"> 
+            <h3>20 <span id="dateBox"></span></h3>
+            <h4 id="timesUp"></h4>
+          </div>
+          <div class="box__item-info">
+            <h3><i class="fab fa-free-code-camp" style="    background: #0092FC;
+              border-radius: 15px;"></i><span id="graden"></span></h3>
+            <h4 id="descrpInfo"></h4>
+          </div>
+          <div class="box__item-button d-flex">
+            <img src="img/emojione_orange-book.svg" alt="">
+            <button onclick="" class="start" style="background: rgba(232, 232, 232, 0.29); color: #AAAAAA;">Not started<v/button>
+          </div>
+        </div> -->
+        <!-- 33333333333333333333 -->
+        <!-- <div class="box__item d-flex">
+          <div class="box__item-date"> 
+            <h3>20 <span id="dateBox"></span></h3>
+            <h4 id="timesUp"></h4>
+          </div>
+          <div class="box__item-info">
+            <h3><i class="fab fa-free-code-camp" style="background: #BAE2FF; border-radius: 15px;"></i><span id="graden"></span></h3>
+            <h4 id="descrpInfo"></h4>
+          </div>
+          <div class="box__item-button d-flex">
+            <img src="img/noto-v1_beach-with-umbrella.png" alt="">
+            <button onclick="" class="start" style="color: #01CC5E;background: rgba(0, 255, 148, 0.14);">Completed</button>
+          </div>
+        </div> -->
+        <!-- 444444444444444444444 -->
+        <!-- <div class="box__item d-flex">
+          <div class="box__item-date"> 
+            <h3>20 <span id="dateBox"></span></h3>
+            <h4 id="timesUp"></h4>
+          </div>
+          <div class="box__item-info">
+            <h3><i class="fab fa-free-code-camp" style="background: #BAE2FF; border-radius: 15px;"></i><span id="graden"></span></h3>
+            <h4 id="descrpInfo"></h4>
+          </div>
+          <div class="box__item-button d-flex">
+            <img src="img/emojione_house-with-garden.svg" alt="">
+            <button onclick="" class="start" style="background: rgba(255, 6, 96, 0.17); color: #ED4C5C;">Canceled</button>
+          </div>
+        </div>
+       </div> -->
+      </div>
+    </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>

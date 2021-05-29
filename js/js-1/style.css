@@ -1,0 +1,182 @@
+/* .container {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+}
+
+.admin_person {
+  width: 570px;
+}
+
+.admin_info {
+  width: 550px;
+}
+
+#me {
+  height: 380px;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: blue;
+}
+input:focus {
+  border-color: grey;
+} */
+
+.inputItem {
+  background: #f1f1f1;
+  box-shadow: inset 0px 4px 3px rgb(0 0 0 / 2%);
+  width: 340px;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.info-todo {
+  background: #e5e5e5;
+}
+
+.newTodo {
+  margin: 30px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.size {
+  width: 243px;
+  height: 43px;
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.blueBtn {
+  background: #205cf5;
+  border: 1px solid #33a8fd;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 243px;
+  height: 43px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #e2e2e2;
+}
+
+#addTodo {
+  background: #01cc5e;
+  border-radius: 5px;
+  width: 169px;
+  height: 41px;
+  border: none;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #faf9f9;
+  transform: translate(550px, 8px);
+}
+
+.box__item {
+  width: 635px;
+  height: 90px;
+  background: #fbfbfb;
+  border-radius: 8px;
+  margin: 22px 60px 15px 35px;
+}
+.box__item-date {
+  width: 123px;
+  background: #ffffff;
+  border-radius: 11px;
+}
+
+.box__item-info {
+  width: 300px;
+}
+
+.box__item-button {
+  align-items: center;
+}
+
+.start {
+  border-radius: 27px;
+  width: 107px;
+  height: 38px;
+  border: none;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+
+  margin: 24px 0px 24px 50px;
+}
+
+.dateStyle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 40px;
+}
+#timesUp {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#graden {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+#descrpInfo {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.delete {
+  display: flex;
+  flex-direction: column;
+  width: 55px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eeeeee;
+}
+
+.check {
+  width: 100%;
+  background: #fbfbfbaf;
+  height: 29px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit {
+  width: 100%;
+  background: #fbfbfbaf;
+  height: 29px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clear {
+  width: 100%;
+  background: #fbfbfbaf;
+  height: 29px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
